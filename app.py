@@ -7,7 +7,7 @@ ui.page_opts(title="PyShiny App with Plot",fillable=True)
 
 #Add sidebar with a slieder input
 with ui.sidebar():
-    ui.input_slider("selected_number_of_bins", "Number of Bins", 0, 100, 20)
+    ui.input_slider("selected_number_of_bins", "Number of Bins", 0, 100, 25)
 
 
 @render.plot(alt="A histogram showing random data distribution")
